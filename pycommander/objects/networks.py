@@ -29,8 +29,8 @@ class Networks:
         new_network = self.client.json_post("/objects/", params=network)
         return new_network
     
-    def update_network(self, network_id, network):
-        updated_network = self.client.json_post('/objects/' + network_id, params=network)
+    def update_network(self, network_id, network_obj):
+        updated_network = self.client.json_post('/objects/' + network_id, params=network_obj)
         return updated_network
     
     def delete_network(self, network_id):
