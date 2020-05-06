@@ -89,30 +89,30 @@ The Networks class is a property of the API Client and has the following functio
     # Create and return a network tag object
 
     network_obj = {
-    "tags": {
-    "dis": "Up18",
-    "subnet": "10.3.3.18",
-    "sourcePort": (0-65535 or None),
-    "destinationPort": (0-65535 or None),
-    "instanceMin": (0-4194303 or None),
-    "instanceMax": (0-4194303 or None),
-    "bacnetNetwork": (0-65535 or None),
-    "destinationAddress": (0-255 or None),
-    "instanceRange": False,
-    "network": True
-    },
-    "tagTypes": {
-    "dis": "Str",
-    "subnet": "Str",
-    "sourcePort": "Number",
-    "destinationPort": "Number",
-    "instanceMin": "Number",
-    "instanceMax": "Number",
-    "bacnetNetwork": "Str",
-    "destinationAddress": "Str",
-    "instanceRange": "Marker",
-    "network": "Marker"
-    }
+        "tags": {
+            "dis": "Up18",
+            "subnet": "10.3.3.18",
+            "sourcePort": (0-65535 or None),
+            "destinationPort": (0-65535 or None),
+            "instanceMin": (0-4194303 or None),
+            "instanceMax": (0-4194303 or None),
+            "bacnetNetwork": (0-65535 or None),
+            "destinationAddress": (0-255 or None),
+            "instanceRange": False,
+            "network": True
+        },
+        "tagTypes": {
+            "dis": "Str",
+            "subnet": "Str",
+            "sourcePort": "Number",
+            "destinationPort": "Number",
+            "instanceMin": "Number",
+            "instanceMax": "Number",
+            "bacnetNetwork": "Str",
+            "destinationAddress": "Str",
+            "instanceRange": "Marker",
+            "network": "Marker"
+        }
     }
 
     n_network = building.networks.create_network(network_obj)
