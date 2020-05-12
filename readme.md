@@ -144,7 +144,7 @@ The Networks class is a property of the API Client and has the following functio
 
 ___
 
-Device class is a property of the API Client which can be accessed with `projec.devices`
+Device class is a property of the API Client which can be accessed with `project.devices`
 
 ```python
     # Returns a list of all devices objects within the project 
