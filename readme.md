@@ -14,7 +14,7 @@ Table of contents
 ___
 
 - [Installation](#installation)
-- [## Tokens](#h2-id%22tokens-401%22tokensh2)
+- [Tokens](#tokens)
 - [API](#api)
 - [Networks](#networks)
 - [Devices](#devices)
