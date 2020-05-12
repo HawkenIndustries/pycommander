@@ -9,8 +9,8 @@ class Alarms:
     ## Read Functions
 
     def get_all_alarms(self):
-        devices = self.client.get_objects(self.q)
-        return devices
+        alarms = self.client.get_objects(self.q)
+        return alarms
     
     def create_alarm(self, alarm_object):
         """
