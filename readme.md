@@ -34,7 +34,7 @@ ___
 **This package supports all Python 3 versions only**
 
 ```bash
-    python -m pip install pycommander
+    python -m pip install commanderiot
 ```
 
 
@@ -45,7 +45,7 @@ Each request to Commander's Web API must be authenticated with a **JWT** token.
 Use your login credentials to obtain a jwt token
 
 ```python
-    from pycommander import CommanderToken
+    from commanderiot import CommanderToken
     import os
     def generate_token():
         # Intiate the token class with your login credentials and license id of your project
@@ -65,11 +65,11 @@ Use your login credentials to obtain a jwt token
 
 ___
 
-`pycommander` provides the `CommanderAPIClient` class that can be initiated with a valid `JWT` token 
+`commanderiot` provides the `CommanderAPIClient` class that can be initiated with a valid `JWT` token 
 
 ```python
     import os
-    from pycommander import CommanderAPIClient
+    from commanderiot import CommanderAPIClient
 
     # Initialize CommanderAPIClient with token of your project
     # Refer above on how to get a token
