@@ -1,8 +1,6 @@
 from distutils.core import setup
 from setuptools import find_packages
 
-with open("readme.md", "r") as fh:
-  long_description = fh.read()
 
 setup(
   name = 'commanderiot',         # How you named your package folder (MyLib)
@@ -10,8 +8,6 @@ setup(
   version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Python client for Commander Web API',   # Give a short description about your library
-  long_description= long_description,
-  long_description_content_type="text/markdown",
   author = 'Gebin Maxey',                   # Type in your name
   author_email = 'support@hawkenio.com',      # Type in your E-Mail
   url = 'https://github.com/HawkenIndustries/pycommander/',   # Provide either the link to your github or to your website

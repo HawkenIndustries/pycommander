@@ -1,4 +1,4 @@
-![Commander Logo](https://www.kmccontrols.com/wp-content/uploads/2018/11/logo_kmccommander_white.svg)
+![Commander Logo](KMCLogo.png)
 
 ---
 
