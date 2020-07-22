@@ -1,7 +1,7 @@
 from distutils.core import setup
 from setuptools import find_packages
 
-with open("Readme.md", "r") as fh:
+with open("readme.md", "r") as fh:
   long_description = fh.read()
 
 setup(
@@ -9,7 +9,7 @@ setup(
   packages = find_packages(),   # Chose the same as "name"
   version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Python HTTP Library for Commander Web API',   # Give a short description about your library
+  description = 'Python client for Commander Web API',   # Give a short description about your library
   long_description= long_description,
   long_description_content_type="text/markdown",
   author = 'Gebin Maxey',                   # Type in your name
