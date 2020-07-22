@@ -15,7 +15,7 @@ setup(
   author = 'Gebin Maxey',                   # Type in your name
   author_email = 'support@hawkenio.com',      # Type in your E-Mail
   url = 'https://github.com/HawkenIndustries/pycommander/',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/HawkenIndustries/pycommander/archive/0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/HawkenIndustries/pycommander/archive/0.2.tar.gz',    # I explain this later on
   keywords = ['IOT', 'API', 'Embedded Systems'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
