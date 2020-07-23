@@ -52,7 +52,7 @@ Use your login credentials to obtain a jwt token
         token = CommanderToken('email', 'password', 'licenseId')
         jwt = token.get_token()
         ## Save the token preferably in environment variables
-        return token
+        return jwt
     
     token = generate_token()
     
