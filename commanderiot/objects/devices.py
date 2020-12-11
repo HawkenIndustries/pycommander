@@ -1,14 +1,18 @@
 from ..helpers.commanderHTTPClient import CommanderHTTPClient
+from ..helpers.cursor import Cursor
 
 class Devices:
     def __init__(self, host, token):
         self.client = CommanderHTTPClient(host, token)
         self.q = {'q': 'device'}
-    ## Read Functions
+        self.cursor = Cursor(host, token, {"q": "device"})
 
-    def get_all_devices(self):
-        devices = self.client.get_objects(self.q)
-        return devices
+    def get_devices(self):
+        """
+        :returns Cursor of devices
+        :rtype Cursor
+        """
+        return self.cursor
     def get_device_details(self, network_id, device_id):
         device = self.client.json_post('/networks/{}/devices/{}/details'.format(network_id, device_id))
         return device

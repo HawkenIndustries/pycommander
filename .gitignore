@@ -128,7 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-tests/*
-tests/
+commanderiot/tests*
 .vscode/*
 pycommander/tests/*

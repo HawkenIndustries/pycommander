@@ -1,9 +1,11 @@
 from ..helpers.commanderHTTPClient import CommanderHTTPClient
+from ..helpers.cursor import Cursor
 
 class Points:
     def __init__(self, host, token):
         self.client = CommanderHTTPClient(host, token)
         self.q = {'q': 'point'}
+        self.cursor = Cursor(host, token, {"q": "point"})
     ## Read Functions
     def get_points_by_query(self, query_string=""):
         '''
